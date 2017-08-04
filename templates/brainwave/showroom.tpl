@@ -4,4 +4,3 @@
         {include_tpl('header')}
         
 showroom...
-Проверка комита 2
