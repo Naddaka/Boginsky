@@ -1,0 +1,351 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-24 06:16+0300\n"
+"PO-Revision-Date: 2017-05-24 06:16+0300\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:45
+msgid " Перед началом парсинга, необходимо сделать бек-ап базы данных"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:48
+msgid " Создание новых категорий"
+msgstr ""
+
+#: application/modules/parse_brain/parse_yandex_xml.php:130
+#: application/modules/parse_brain/parse_yandex_xml.php:133
+msgid " идет обработка файла  "
+msgstr ""
+
+#: application/modules/parse_brain/categories_brain.php:95
+#: application/modules/parse_brain/categories_brain.php:98
+#: application/modules/parse_brain/parse_yandex_xml.php:117
+#: application/modules/parse_brain/parse_yandex_xml.php:120
+msgid " категорий, в файле было  "
+msgstr ""
+
+#: application/modules/parse_brain/products.php:160
+msgid " товаров"
+msgstr ""
+
+#: application/modules/parse_brain/parse_yandex_xml.php:151
+#: application/modules/parse_brain/parse_yandex_xml.php:154
+msgid " товаров "
+msgstr ""
+
+#: application/modules/parse_brain/products.php:158
+msgid " товаров  "
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:80
+msgid "%"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:78
+#: application/modules/parse_brain/assets/admin/categories.tpl:84
+msgid "% наценки на розн. цену"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:75
+msgid "Active"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:171
+msgid "Add new diapazon"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:13
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:13
+#: application/modules/parse_brain/assets/admin/categories.tpl:32
+#: application/modules/parse_brain/assets/admin/main.tpl:13
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:28
+msgid "Back"
+msgstr "Вернуться"
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:13
+msgid "Cancel"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/brain_listItem.tpl:40
+msgid "Collapse category"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:76
+msgid "Delete"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:75
+msgid "Edit"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/brain_listItem.tpl:56
+msgid "Edit category"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:191
+msgid "Enter variable"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:82
+#: application/modules/parse_brain/assets/js/prises_range.js:110
+#: application/modules/parse_brain/assets/js/prises_range.js:114
+#: application/modules/parse_brain/assets/js/prises_range.js:150
+#: application/modules/parse_brain/assets/js/prises_range.js:154
+#: application/modules/parse_brain/assets/js/prises_range.js:191
+#: application/modules/parse_brain/assets/js/prises_range.js:196
+#: application/modules/parse_brain/assets/js/parsing_start.js:193
+#: application/modules/parse_brain/assets/js/parsing_start.js:215
+#: application/modules/parse_brain/assets/js/parsing_start.js:236
+#: application/modules/parse_brain/assets/js/parsing_start.js:257
+msgid "Error"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/brain_listItem.tpl:48
+msgid "expand the category"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/brain_listItem.tpl:30
+msgid "go to the website"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:69
+msgid "Is BRAIN"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:76
+msgid "Menu"
+msgstr ""
+
+#: application/modules/parse_brain/admin.php:186
+#: application/modules/parse_brain/admin.php:205
+#: application/modules/parse_brain/admin.php:225
+#: application/modules/parse_brain/admin.php:245
+#: application/modules/parse_brain/admin.php:269
+#: application/modules/parse_brain/admin.php:280
+#: application/modules/parse_brain/admin.php:325
+#: application/modules/parse_brain/admin.php:346
+#: application/modules/parse_brain/admin.php:380
+#: application/modules/parse_brain/assets/js/prises_range.js:86
+#: application/modules/parse_brain/assets/js/prises_range.js:125
+#: application/modules/parse_brain/assets/js/prises_range.js:164
+#: application/modules/parse_brain/assets/js/prises_range.js:224
+#: application/modules/parse_brain/assets/js/prises_range.js:227
+#: application/modules/parse_brain/assets/js/prises_range.js:235
+#: application/modules/parse_brain/assets/js/parsing_start.js:20
+#: application/modules/parse_brain/assets/js/parsing_start.js:24
+#: application/modules/parse_brain/assets/js/parsing_start.js:190
+#: application/modules/parse_brain/assets/js/parsing_start.js:212
+#: application/modules/parse_brain/assets/js/parsing_start.js:233
+#: application/modules/parse_brain/assets/js/parsing_start.js:254
+msgid "Message"
+msgstr "Сообщение"
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:72
+msgid "Parent Category"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:67
+msgid "Parse"
+msgstr ""
+
+#: application/modules/parse_brain/module_info.php:6
+msgid "Parse_brain"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:77
+msgid "Price type"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:5
+msgid "Product categories"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:88
+msgid "RRC для бренда в категории"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:35
+#: application/modules/parse_brain/assets/admin/categories.tpl:53
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/modules/parse_brain/admin.php:186
+#: application/modules/parse_brain/admin.php:205
+#: application/modules/parse_brain/admin.php:225
+#: application/modules/parse_brain/admin.php:245
+#: application/modules/parse_brain/admin.php:269
+#: application/modules/parse_brain/admin.php:280
+#: application/modules/parse_brain/admin.php:325
+#: application/modules/parse_brain/admin.php:346
+#: application/modules/parse_brain/admin.php:380
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: application/modules/parse_brain/assets/admin/brain_listItem.tpl:64
+#: application/modules/parse_brain/assets/admin/brain_listItem.tpl:72
+msgid "show"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:101
+msgid "There are no categories at the site"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/categories.tpl:71
+msgid "Title"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:114
+#: application/modules/parse_brain/assets/js/prises_range.js:150
+#: application/modules/parse_brain/assets/js/prises_range.js:154
+msgid "Variable is not added"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:82
+msgid "Variable is not removed"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:110
+msgid "Variable is not updated"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:196
+msgid "Variable must have a value"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:164
+msgid "Variable successfully added"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:86
+msgid "Variable successfully removed"
+msgstr ""
+
+#: application/modules/parse_brain/assets/js/prises_range.js:125
+msgid "Variable successfully updated"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:73
+msgid "Активен"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/brain_listItem.tpl:13
+msgid "Загружать товары"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:21
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:21
+#: application/modules/parse_brain/assets/admin/main.tpl:21
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:36
+msgid "Категории и тип цен, применяимые к ней "
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:70
+msgid "Конец диапазона"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:62
+msgid "Логин"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:50
+msgid "Настройка соединения"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:17
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:17
+#: application/modules/parse_brain/assets/admin/categories.tpl:36
+#: application/modules/parse_brain/assets/admin/main.tpl:17
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:32
+msgid "Настройки"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:22
+msgid "Настройки диапазоном для изминения цен"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:25
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:25
+#: application/modules/parse_brain/assets/admin/categories.tpl:40
+#: application/modules/parse_brain/assets/admin/main.tpl:25
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:40
+msgid "Настройки цен по диапазонам "
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:69
+msgid "Начало диапазона"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:29
+#: application/modules/parse_brain/assets/admin/categories.tpl:44
+#: application/modules/parse_brain/assets/admin/main.tpl:29
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:44
+msgid "Начать загрузку "
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:71
+msgid "Пароль"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:12
+msgid "Применить"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:50
+msgid "Применить наценку"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:71
+msgid "Процент наценки"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:51
+msgid "Создание новых товаров c выбранных категорий"
+msgstr ""
+
+#: application/modules/parse_brain/categories_brain.php:95
+#: application/modules/parse_brain/categories_brain.php:98
+#: application/modules/parse_brain/parse_yandex_xml.php:117
+#: application/modules/parse_brain/parse_yandex_xml.php:120
+#: application/modules/parse_brain/parse_yandex_xml.php:130
+#: application/modules/parse_brain/parse_yandex_xml.php:133
+#: application/modules/parse_brain/parse_yandex_xml.php:151
+#: application/modules/parse_brain/parse_yandex_xml.php:154
+#: application/modules/parse_brain/products.php:158
+#: application/modules/parse_brain/products.php:160
+msgid "Создано "
+msgstr ""
+
+#: application/modules/parse_brain/admin.php:133
+msgid "Тo translation"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/settings.tpl:6
+#: application/modules/parse_brain/assets/admin/main.tpl:6
+msgid "Управления выгрузки Брейн"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/parsing_start.tpl:6
+msgid "Управления процессом загрузки"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:8
+msgid "Установить наценки"
+msgstr ""
+
+#: application/modules/parse_brain/assets/admin/price_ranges.tpl:5
+msgid "Установления наценки по диапазонах цен "
+msgstr ""

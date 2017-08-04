@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TemplatesList>
+<CategoryName>Corporate Templates</CategoryName>
+<Template>
+<Id>100</Id>
+<Name>Адаптивный шаблон Ugus 1.0 для ImageCMS</Name>
+<Url>https://www.imagecms.net/addons/shop/product/adaptivnyi-shablon-ugus-10-dlia-imagecms</Url>
+<Images>
+<MainImage>https://www.imagecms.net/addons/uploads/shop/products/main/aebee5bf638e70186d964b6f24932cfa.jpg</MainImage>
+</Images>
+<Description>&lt;p&gt;&quot;НА КОНКУРС ШАБЛОНОВ&quot; Адаптивный шаблон &quot;Ugus&quot; для ImageCMS Corporate. Адаптивный дизайн и верстка. Особый упор в адаптивности этого шаблона сделан на удобство работы с ним на современных мобильных устройствах. (см. скриншоты). Никаких монстрообразных css-фреймворков (Bootstrap). Минимум javascript-плагинов.&lt;/p&gt;  </Description>
+<Version>1.0</Version>
+<SupportedVersions>4.4</SupportedVersions>
+<Demo>http://corporate.iromanov.ru/</Demo>
+<Type>Corporate</Type>
+<Price>46</Price>
+<CurrencySymbol>$</CurrencySymbol>
+<IsFree>No</IsFree>
+</Template>
+<Template>
+<Id>108</Id>
+<Name>Универсальный шаблон сайта компании</Name>
+<Url>https://www.imagecms.net/addons/shop/product/universalnyi-shablon-saita-kompanii</Url>
+<Images>
+<MainImage>https://www.imagecms.net/addons/uploads/shop/products/main/6dcf25ec0843c0e7f489a0761b736b2e.jpg</MainImage>
+<AdditionalImages>
+<Image>https://www.imagecms.net/addons/uploads/shop/products/additional/cf9b21c04442bcacd992caa97b41e5d4.jpg</Image>
+<Image>https://www.imagecms.net/addons/uploads/shop/products/additional/7368e59a70c1236e4de061cd62a10824.jpg</Image>
+<Image>https://www.imagecms.net/addons/uploads/shop/products/additional/07cf94c9baf17280a08680c965e6301e.jpg</Image>
+</AdditionalImages>
+</Images>
+<Description>&lt;p&gt;НА КОНКУРС ШАБЛОНОВ. Шаблон фиксированной ширины для сайта компании произвольной тематики.&lt;/p&gt;  </Description>
+<Version>01</Version>
+<SupportedVersions>imagecms corporate_4.4.5</SupportedVersions>
+<Demo></Demo>
+<Type>Corporate</Type>
+<Price>10</Price>
+<CurrencySymbol>$</CurrencySymbol>
+<IsFree>No</IsFree>
+</Template>
+<Template>
+<Id>110</Id>
+<Name>Шаблон ImageCMS Corporate 4.4.5</Name>
+<Url>https://www.imagecms.net/addons/shop/product/shablon-imagecms-corporate-445</Url>
+<Images>
+<MainImage>https://www.imagecms.net/addons/uploads/shop/products/main/55cc2722078a2947a96be660fabff22c.png</MainImage>
+<AdditionalImages>
+<Image>https://www.imagecms.net/addons/uploads/shop/products/additional/8fe457aa72dac20b8896a6af2c1a11aa.png</Image>
+<Image>https://www.imagecms.net/addons/uploads/shop/products/additional/9e81347f153d9abcf38bada3be2ed5b2.jpg</Image>
+<Image>https://www.imagecms.net/addons/uploads/shop/products/additional/a8ff42bc66daffc923082d195be19baa.jpg</Image>
+</AdditionalImages>
+</Images>
+<Description>&lt;p&gt;Адаптивный шаблон для версии Corporate с параллакс-эффектом&lt;/p&gt;  </Description>
+<Version>1,0</Version>
+<SupportedVersions>4.4.5, 4.5 corporate</SupportedVersions>
+<Demo></Demo>
+<Type>Corporate</Type>
+<Price>0</Price>
+<CurrencySymbol>$</CurrencySymbol>
+<IsFree>Yes</IsFree>
+</Template>
+</TemplatesList>
