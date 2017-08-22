@@ -191,3 +191,12 @@ html#ecwid_html body#ecwid_body div.ecwid-minicart-counter {
 	float: left;
 	margin-right: 55px
 }
+#works-linker .work-navigation {
+	background-color: #333;
+}
+#works-linker .work-navigation a {
+	color: #fff;
+	font-weight: 400;
+	padding: .7em 1.7em;
+	letter-spacing: .05em
+}

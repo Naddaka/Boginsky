@@ -521,53 +521,40 @@
 
       <div class="col-xs-6 col-sm-3">
         <div class="couner-item" data-counter-animation="{$page.field_accent1number}">
-                                    <!-- <div class="display-tc">
-                                        <div class="icon-box"> <i class="fa fa-suitcase"></i> </div>
-                                      </div> -->
-                                      <div class="display-tc count-info">
-                                        <div class="count"></div>{if $page.field_accent1plus}<div class="count-plus fadeIn wow" data-wow-delay="0.9s">{$page.field_accent1plus}</div>{/if}
-                                        <div class="title">{$page.field_accent1text}</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="col-xs-6 col-sm-3">
-                                    <div class="couner-item" data-counter-animation="{$page.field_accent2number}">
-                                    <!-- <div class="display-tc">
-                                        <div class="icon-box"> <i class="fa fa-group"></i> </div>
-                                    </div>
-                                  -->    
-                                  <div class="display-tc count-info">
-                                    <div class="count"></div>{if $page.field_accent2plus}<div class="count-plus fadeIn wow" data-wow-delay="1.2s">{$page.field_accent2plus}</div>{/if}
-                                    <div class="title">{$page.field_accent2text}</div>
-                                  </div>
-                                </div>
-                              </div>
+        <div class="count-info">
+            <div class="count"></div>{if $page.field_accent1plus}<div class="count-plus fadeIn wow" data-wow-delay="0.9s">{$page.field_accent1plus}</div>{/if}
+            <div class="title">{$page.field_accent1text}</div>
+          </div>
+        </div>
+      </div>
 
-                              <div class="col-xs-6 col-sm-3">
-                                <div class="couner-item" data-counter-animation="{$page.field_accent3number}">
-                                    <!-- <div class="display-tc">
-                                        <div class="icon-box"> <i class="fa fa-globe"></i> </div>
-                                      </div> -->
-                                      <div class="display-tc count-info">
-                                        <div class="count"></div>{if $page.field_accent3plus}<div class="count-plus fadeIn wow" data-wow-delay="1.4s">{$page.field_accent3plus}</div>{/if}
-                                        <div class="title">{$page.field_accent3text}</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="col-xs-6 col-sm-3">
-                                    <div class="couner-item" data-counter-animation="{$page.field_accent4number}">
-                                    <!-- <div class="display-tc">
-                                        <div class="icon-box"> <i class="fa fa-clock-o"></i> </div>
-                                      </div> -->
-                                      <div class="display-tc count-info">
-                                        <div class="count"></div>{if $page.field_accent4plus}<div class="count-plus fadeIn wow" data-wow-delay="1.7s">{$page.field_accent4plus}</div>{/if}
-                                        <div class="title">{$page.field_accent4text}</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
+      <div class="col-xs-6 col-sm-3">
+        <div class="couner-item" data-counter-animation="{$page.field_accent2number}">
+          <div class="count-info">
+            <div class="count"></div>{if $page.field_accent2plus}<div class="count-plus fadeIn wow" data-wow-delay="1.2s">{$page.field_accent2plus}</div>{/if}
+            <div class="title">{$page.field_accent2text}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-6 col-sm-3">
+        <div class="couner-item" data-counter-animation="{$page.field_accent3number}">
+          <div class="count-info">
+            <div class="count"></div>{if $page.field_accent3plus}<div class="count-plus fadeIn wow" data-wow-delay="1.4s">{$page.field_accent3plus}</div>{/if}
+            <div class="title">{$page.field_accent3text}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-6 col-sm-3">
+        <div class="couner-item" data-counter-animation="{$page.field_accent4number}">
+          <div class="count-info">
+            <div class="count"></div>{if $page.field_accent4plus}<div class="count-plus fadeIn wow" data-wow-delay="1.7s">{$page.field_accent4plus}</div>{/if}
+            <div class="title">{$page.field_accent4text}</div>
+          </div>
+        </div>
+      </div>
+    </div>
                                 
                                 
                               </div>
