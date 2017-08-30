@@ -28,7 +28,7 @@
         </div>
     </div><!-- .page-section -->
  {/foreach}             
-             
+              <!--  include follow_soc -->{include_tpl('follow_soc')}
             <!-- contact_form.tpl -->
             <div id="formdiv">{include_tpl('contact_form')}</div>
          

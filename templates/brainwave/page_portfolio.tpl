@@ -1,6 +1,6 @@
 <!-- Шаблон page_portfolio.tpl -->
 <div id="works-linker" class="mt90">
-{echo $CI->load->module('linker')->get_links($page.id)}
+{echo $CI->load->module('linker2')->get_links($page.id)}
 </div>
 <div class="page-section">
                 <div class="container mt-50">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="row mt50">
                         <div class="col-sm-12">
-                           {echo $CI->load->module('linker')->get_links($page.id)}
+                           {echo $CI->load->module('linker2')->get_links($page.id)}
                         </div>
                     </div>
    </div>

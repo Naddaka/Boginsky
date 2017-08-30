@@ -35,6 +35,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	font-weight: 200;
     letter-spacing: 0.05em;
 }
+#block-center .h2, #block-center h2 {
+    font-weight: 400;
+}
 .text-gray .bigh,
 .text-gray .giant {
 	color: #888;
@@ -42,6 +45,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 .navbar-brand {
 	padding: 10px 0 15px 51px;
 }
+
 /* ECWID */
 html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryDescription {
 	display: block;
@@ -172,9 +176,8 @@ html#ecwid_html body#ecwid_body div.ecwid-minicart-counter {
 	display: block;
 	background-color: black;
 }
-#sec-instagram:hover {
-	background-color: #7f48c2;
-	cursor: pointer;
+#sec-instagram img {
+	margin-top: -13px;
 }
 #sec-instagram .container {
 	padding: 55px 0
@@ -182,14 +185,10 @@ html#ecwid_html body#ecwid_body div.ecwid-minicart-counter {
 #sec-instagram p {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 24px;
-	font-weight: 300;
+	font-size: 14px;
+	font-weight: 600;
 	line-height: 32px;
 	margin-bottom: .563em;
-}
-#sec-instagram img {
-	float: left;
-	margin-right: 55px
 }
 #works-linker .work-navigation {
 	background-color: #333;

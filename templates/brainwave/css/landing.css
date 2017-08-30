@@ -369,6 +369,10 @@
 #widget {
 	padding-top: 70px 
 }
+#photos-left,
+#photos-right {
+	padding: 5em 0 3em
+}
 /* избавиться от стиля по не надобности
 .all-caps {
 	font-weight:300;

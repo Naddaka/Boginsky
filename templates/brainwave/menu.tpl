@@ -6,6 +6,7 @@
 {if strip_tags($item.field_menu) == 'Left-Right'}
 
 <div class="navigation default leftright navbar-fixed-top" style="background-color: {if $category.field_menucolor}{strip_tags($category.field_menucolor)}{else:}#000{/if}">
+        <button type="button" class="navbar-toggle collapsed"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="title">{echo siteinfo('siteinfo_transl-menu')}</span> </button>
     <nav>
     	<div class="container">
 			<div class="row">
@@ -16,7 +17,7 @@
 	
 				<div class="col-sm-4 menu-lr">
 					<!-- Логотип --> 
-    				<a class="navbar-brand" href="{site_url()}"> <img class="logo-img" src="{echo siteinfo('siteinfo_logo')}?v=1.0.0" alt=""> </a>
+    				<a class="navbar-brand" href="{site_url()}"> <img class="logo-img" src="/uploads/images/boginsky-logo-svg-01.svg" alt=""> </a>
 				</div>
 	
 				<div class="col-sm-4 menu-r">
@@ -26,7 +27,6 @@
 			</div>
 		</div>
 
-        <button type="button" class="navbar-toggle collapsed"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="title">{echo siteinfo('siteinfo_transl-menu')}</span> </button>
 	</nav>
 </div>
 

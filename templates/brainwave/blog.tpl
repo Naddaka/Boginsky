@@ -44,3 +44,7 @@
 		</aside>
 	</div>
 </div>
+ <!--  include follow_soc -->{include_tpl('follow_soc')}
+{if strip_tags($category.field_contactform) == 'ON'}
+ <!--  include contact_order -->{include_tpl('contact_order')}
+{/if} 

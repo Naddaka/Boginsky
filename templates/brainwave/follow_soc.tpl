@@ -1,9 +1,9 @@
 <!-- follow-soc.tpl -->
-<a id="sec-instagram" href="https://www.instagram.com/boginsky_luxury_custom/" data-title="" target="_blank"> 
+<div id="sec-instagram"> 
 <div class="container">
     <div class="row">
-        <div class="col-md-push-3 col-sm-6">{widget('sec-instagram')}</div>
+        <div class="col-sm-12">{widget('sec-instagram')}</div>
         </div>
     </div>
 </div>
-</a>
+</div>
