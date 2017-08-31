@@ -156,14 +156,16 @@
        </div>
    </div>
    {/if}
-        {if strip_tags($item.field_slideStyle) == 'Block right'}
+        
+        {if strip_tags($item.field_slideStyle) == 'Block left' or strip_tags($item.field_slideStyle) == 'Block right'}
+       
         <div class="slide{if strip_tags($item.field_textcolor) == 'Black'} text-black{/if}{if strip_tags($item.field_textcolor) == 'White'} text-white{/if}{if strip_tags($item.field_textcolor) == 'Gray'} text-gray{/if}"> <img src="{$item.field_pagephoto}?v=1.0.0" alt="">
             <div class="content">
-
-                <div class="container martop-per">
+                <div id="slide-block-lr" class="display-tc">
+                         <div class="container">
                  <div class="row">
                     <div class="col-sm-12">
-                        <div class="slider-block-r{if strip_tags($item.field_animation) == 'OFF'}{else:}{if strip_tags($item.field_animation) == 'Default'} fadeInUp{else:} {strip_tags($item.field_animation)}{/if} wow{/if}"{if strip_tags($item.field_animation) == 'OFF'}{else:} data-wow-delay="0.35s"{/if} data-overlay-color="{if $item.field_bgcolor}{strip_tags($item.field_bgcolor)}{else:}#000{/if}" data-overlay-opacity="{if strip_tags($item.field_overlay) == 'OFF'}0{else:}{strip_tags($item.field_overlay)}{/if}">
+                    <div class="slider-block-r{if strip_tags($item.field_slideStyle) == 'Block right'} alignright{/if}{if strip_tags($item.field_animation) == 'OFF'}{else:}{if strip_tags($item.field_animation) == 'Default'} fadeInUp{else:} {strip_tags($item.field_animation)}{/if} wow{/if}"{if strip_tags($item.field_animation) == 'OFF'}{else:} data-wow-delay="0.35s"{/if} data-overlay-color="{if $item.field_bgcolor}{strip_tags($item.field_bgcolor)}{else:}#000{/if}" data-overlay-opacity="{if strip_tags($item.field_overlay) == 'OFF'}0{else:}{strip_tags($item.field_overlay)}{/if}">
 
                             <!-- Заголовок -->
                             {if strip_tags($item.field_titleoff) == ''}
@@ -193,14 +195,14 @@
                             <a href="{$item.field_getlink}" class="btn btn-default {if strip_tags($item.field_textcolor) == 'White'} btn-inverted{/if}{if strip_tags($item.field_animation) == 'OFF'}{else:}{if strip_tags($item.field_animation) == 'Default'} fadeInUp{else:} {strip_tags($item.field_animation)}{/if} wow{/if}"{if strip_tags($item.field_animation) == 'OFF'}{else:} data-wow-delay="0.90s"{/if}>{strip_tags($item.field_gettext)}</a>
                             {/if} 
 
-                        </div>
+                        </div>          
                     </div>
 
                 </div>
             </div>
-
-        </div>
-    </div>
+               </div>
+           </div>
+       </div>
     {/if}
     {/foreach}
 
