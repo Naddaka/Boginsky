@@ -853,7 +853,9 @@
 		#block-img-bottom br  { 
 			display: none 
 		}
-
+		#clients {
+			height: 140px;
+		}
 		#block-stat .container {
 			padding: 20px 15px;
 			}	.img-news {
@@ -871,6 +873,9 @@
 			}
 		}
 		@media only screen and (min-width: 768px) and (max-width: 991px) {
+			#clients {
+				height: 100px;
+			}
 			#widget {
 				padding-top: 0;
 			}

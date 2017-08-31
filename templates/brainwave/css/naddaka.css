@@ -573,45 +573,9 @@ p {
                     #slide-block-lr.display-tc {
                       padding: 0;
                     }
-                    /*Адаптивность*/
-                    @media (max-width: 1200px) and (min-width: 768px) {
-
-                     .navigation ul li a {
-                      font-size: 1.3rem;
-                    }
-
-                    #slide-block-lr .col-sm-12 {
-                      padding-left: 50px;
-                      padding-right: 50px;
-                    } 
-                    .navigation .menu-r ul li {
-                      margin: -10px 0 10px 10px;
-                    }
-                    .couner-item .count-info {
-                      padding-left: 0
-                    }
-                    .couner-item .count,
-                    .couner-item .count-plus {
-                      font-size: 6rem
-                    }
-                  }
-                  @media only screen and (max-width: 991px) and (min-width: 768px) {
-                    .couner-item .count-plus {
-                      font-size: 4rem
-                    }
-                  }
-                  @media screen and (min-width: 992px) {
-                    #client-comments .owl-nav .owl-prev,
-                    #client-comments .owl-nav .owl-next,
-                    #client-comments .owl-nav .prev,
-                    #client-comments .owl-nav .next {
-                      width: 50px;
-                      height: 68px;
-                      margin-top: -100px;
-                      } }
                       #clients {
                         background-color: #000;
-                        height: 140px;
+                        height: 170px;
                       }
 
                       #clients .container {
@@ -833,6 +797,43 @@ p {
                       .map-section.style-2 .map-block {
                         left: 0;
                       }
+
+                    /*Адаптивность*/
+                    @media (max-width: 1200px) and (min-width: 768px) {
+
+                     .navigation ul li a {
+                      font-size: 1.3rem;
+                    }
+
+                    #slide-block-lr .col-sm-12 {
+                      padding-left: 50px;
+                      padding-right: 50px;
+                    } 
+                    .navigation .menu-r ul li {
+                      margin: -10px 0 10px 10px;
+                    }
+                    .couner-item .count-info {
+                      padding-left: 0
+                    }
+                    .couner-item .count,
+                    .couner-item .count-plus {
+                      font-size: 6rem
+                    }
+                  }
+                  @media only screen and (max-width: 991px) and (min-width: 768px) {
+                    .couner-item .count-plus {
+                      font-size: 4rem
+                    }
+                  }
+                  @media screen and (min-width: 992px) {
+                    #client-comments .owl-nav .owl-prev,
+                    #client-comments .owl-nav .owl-next,
+                    #client-comments .owl-nav .prev,
+                    #client-comments .owl-nav .next {
+                      width: 50px;
+                      height: 68px;
+                      margin-top: -100px;
+                      } }
                       @media screen and (max-width:768px) {
                         #clients .client-carousel .carousel-item img {
                           max-width: 200px;
@@ -841,7 +842,7 @@ p {
                           background-size: 35%;
                         }
                         #clients {
-                          height: 100px;
+                          height: 170px;
                         }
                         #slide-block-lr .col-sm-12 {
                           padding-left: 50px;
@@ -953,9 +954,6 @@ p {
                      }
                      @media (max-width: 480px) {
 
-                      #clients {
-                        height: 170px;
-                      }
                       #clients .client-carousel {
                         background: none;
                       }
