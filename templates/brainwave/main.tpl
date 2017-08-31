@@ -37,6 +37,7 @@
 <link href="{$THEME}css/style.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
 <link href="{$THEME}css/naddaka.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
 <link href="{$THEME}css/landing.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+<link href="{$THEME}css/adaptive.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
 <link href="{$THEME}css/project.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
 {include_tpl('styles')}
 </head>
