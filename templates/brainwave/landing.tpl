@@ -18,7 +18,7 @@
     <div class="row">
        
       {if strip_tags($page.field_lanpage) == 'Photos-left'}<!-- Стиль блока «Photos-left» --> 
-       <div class="col-sm-6 hidden-xs">
+       <div class="col-sm-6">
         <div class="layers">
         {if $page.field_pagephoto}
         <img src="{$page.field_pagephoto}?v=1.0.0" alt="" class="layer{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeInLeft{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay="0.2s"{/if} width="555" height="439">{/if}
@@ -69,7 +69,7 @@
     
     </div>
 
-      <div class="col-sm-6 hidden-xs">
+      <div class="col-sm-6">
         <div class="layers mb-xs40 mt-sm80 mb-md0 mt-md0 mb-lg-50 mt-lg-50">
         {if $page.field_pagephoto}
         <img src="{$page.field_pagephoto}?v=1.0.0" alt="" class="layer{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeInUp{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay="0.2s"{/if} width="555" height="439">{/if}
