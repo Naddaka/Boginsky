@@ -4,7 +4,7 @@
 <div id="showroom">
 	<div class="container">
 	<div class="row">
-		<div class="col-sm-3">
+		<div id="aside1" class="col-sm-3">
 			<div class="portfolio-filter">
 				<button class="btn btn-default btn-xs active" data-filter="*">{echo siteinfo('siteinfo_transl-all')}</button>
 				{$sub_cats = get_sub_categories($category.id)}
@@ -36,7 +36,7 @@
 		</div>
 	</div>
 </div>
-
+<article></article>
  <!--  include follow_soc -->{include_tpl('follow_soc')}
 {if strip_tags($category.field_contactform) == 'ON'}
  <!--  include contact_order -->{include_tpl('contact_order')}

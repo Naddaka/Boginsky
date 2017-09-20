@@ -158,20 +158,6 @@ html#ecwid_html body#ecwid_body div.ecwid-minicart-counter {
 /* salvattore */
 
 
-@media screen and (max-width:768px) {
-	.page-header-large {
-		padding: 12em 30px 3em;
-	}
-}
-@media screen and (max-width:480px) {
-	.page-header-large {
-		padding: 12em 0 3em;
-	}
-	.home-slider .large-header, .home-text-rotate .large-header {
-		font-size: 5rem;
-		letter-spacing: .05em;
-	}
-}
 #sec-instagram {
 	display: block;
 	background-color: black;
@@ -198,4 +184,27 @@ html#ecwid_html body#ecwid_body div.ecwid-minicart-counter {
 	font-weight: 400;
 	padding: .7em 1.7em;
 	letter-spacing: .05em
+}
+
+@media screen and (max-width:768px) {
+	.page-header-large {
+		padding: 12em 30px 3em;
+	}
+}
+@media screen and (max-width:480px) {
+	.page-header-large {
+		padding: 12em 0 3em;
+	}
+	.home-slider .large-header, .home-text-rotate .large-header {
+		font-size: 5rem;
+		letter-spacing: .05em;
+	}
+	
+  #sec-instagram .container {
+    padding: 35px 0;
+}
+    #sec-instagram span {
+    display: block;
+    margin-top: 20px;
+  }
 }
