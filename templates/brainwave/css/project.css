@@ -186,15 +186,8 @@ html#ecwid_html body#ecwid_body div.ecwid-minicart-counter {
 	letter-spacing: .05em
 }
 
-@media screen and (max-width:768px) {
-	.page-header-large {
-		padding: 12em 30px 3em;
-	}
-}
+
 @media screen and (max-width:480px) {
-	.page-header-large {
-		padding: 12em 0 3em;
-	}
 	.home-slider .large-header, .home-text-rotate .large-header {
 		font-size: 5rem;
 		letter-spacing: .05em;

@@ -3,349 +3,370 @@
   -------------------------------------*/
 
   /*Адаптивность*/
-  @media (min-width: 1920px) {
+  @media (min-width: 1920px) {  
+    .page-header-largest {
+      padding: 18em 30px 16em;
+    }
     #block-left .demi-2.col-middle {
       padding: 200px 100px 200px 20%;
-    }    
-
+    }  
     #block-right .demi-2.col-middle {
       padding: 200px 20% 200px 100px;
     }
   }
+  @media (min-width: 1200px) {  
+   /* .cover {
+      background-size: contain;
+    }*/
+  }
   @media (min-width: 768px) and (max-width: 1200px) {
+        #showroom {
+      padding: 80px 0;
+    }
+    .contain {
+      background-size: cover;
+    }
+    .navigation ul li a {
+      font-size: 1.3rem;
+    }
 
-   .navigation ul li a {
-    font-size: 1.3rem;
+    .img-news {
+      height: 150px;
+      width: 100%
+    }
+    #slide-block-lr .col-sm-12 {
+      padding-left: 50px;
+      padding-right: 50px;
+    } 
+    .navigation .menu-r ul li {
+      margin: -10px 0 10px 10px;
+    }
+    .couner-item .count-info {
+      padding-left: 0
+    }
+    .couner-item .count,
+    .couner-item .count-plus {
+      font-size: 6rem
+    }
   }
+  /* iPad landscape */
+  @media (min-width: 992px) and (max-width: 1200px) {
 
-  .img-news {
-    height: 150px;
-    width: 100%
+    #showroom .btn-default {
+      white-space: normal;
+      text-align: left;
+      letter-spacing: 0.5px;
+    }
+    .service .accent-img {
+      width: 90px;
+      height: 90px;
+      background-size: contain; 
+    } 
+    #block-center br,
+    #block-img-bottom br  { 
+      display: none 
+    }
+    #clients {
+      height: 140px;
+    }
+    #block-stat .container {
+      padding: 20px 15px;
+    } 
+    .img-news {
+      height: 200px;
+      width: 100%
+    }
+    #widget {
+      padding-top: 0;
+    }
+    #client-comments {
+      margin-top: 0
+    }
+    #block-center, #only-img-bg, .background-fixed, .fullimg, .fixed {
+      background-attachment: scroll;
+    }
+    #photos-left {
+      padding: 5em 0 0;
+    }  
+    #photos-right {
+      padding: 3em 0 0;
+    }
+    #block-right .demi-2.col-middle {
+      padding: 50px 70px 62px 50px
+    }
+    #block-left .demi-2.col-middle {
+      padding: 65px 0 60px 75px;
+    }
+    #block-right p,
+    #block-left p {
+      line-height: 30px
+    }
+    #block-right.origin,
+    #block-left.origin {
+      background-size: cover;
+    }
+    #block-right.bg_left,
+    #block-left.bg_left {
+      background-position: bottom;
+    }
   }
-  #slide-block-lr .col-sm-12 {
-    padding-left: 50px;
-    padding-right: 50px;
-  } 
-  .navigation .menu-r ul li {
-    margin: -10px 0 10px 10px;
-  }
-  .couner-item .count-info {
-    padding-left: 0
-  }
-  .couner-item .count,
-  .couner-item .count-plus {
-    font-size: 6rem
-  }
-}
-/* iPad landscape */
-@media (min-width: 992px) and (max-width: 1200px) {
-
-  #showroom .btn-default {
-    white-space: normal;
-    text-align: left;
-    letter-spacing: 0.5px;
-  }
-  .service .accent-img {
-    width: 90px;
-    height: 90px;
-    background-size: contain; 
-  } 
-  #block-center br,
-  #block-img-bottom br  { 
-    display: none 
-  }
-  #clients {
-    height: 140px;
-  }
-  #block-stat .container {
-    padding: 20px 15px;
-  } 
-  .img-news {
-    height: 200px;
-    width: 100%
-  }
-  #widget {
-    padding-top: 0;
-  }
-  #client-comments {
-    margin-top: 0
-  }
-  #block-center, #only-img-bg, .background-fixed, .fullimg, .fixed {
-    background-attachment: scroll;
-  }
-  #photos-left {
-    padding: 5em 0 0;
-  }  
-  #photos-right {
-    padding: 3em 0 0;
-  }
-  #block-right .demi-2.col-middle {
-    padding: 50px 70px 62px 50px
-  }
-  #block-left .demi-2.col-middle {
-    padding: 65px 0 60px 75px;
-  }
-  #block-right p,
-  #block-left p {
-    line-height: 30px
-  }
-  #block-right.origin,
-  #block-left.origin {
-    background-size: cover;
-  }
-  #block-right.bg_left,
-  #block-left.bg_left {
-    background-position: bottom;
-  }
-}
-/* iPad portail ? */
-@media (min-width: 768px) and (max-width: 991px) {
-  #sec-instagram span {
-    display: block;
-    margin-top: 20px;
-  }
-  #showroom .btn-default {
-    white-space: normal;
-    text-align: left;
-    letter-spacing: 0.5px;
-    margin: 0 0 5px;
-  }
-  #photos-right .mt-sm80 {
-    margin-top: 0;
-  }
-  .couner-item .count-plus {
-    font-size: 4rem
-  }
-  #clients {
-    height: 100px;
-  }
-  #widget {
-    padding-top: 0;
-  }
-  #client-comments {
-    margin-top: 0
-  }
-  br { display: none }
-  .prefoot br { display: block; }
-
-  #block-left .demi-2.col-middle,
-  #block-right .demi-2.col-middle {
-    padding: 60px 40px 50px 40px;
-  }
-  #block-right .overlay {
-    opacity: 1!important;
-  }
-  #block-right.origin {
-    background-size: inherit;
-    background-position: bottom;
-  }
-  #block-right.cover {
-    background-size: contain;
-    background-position: bottom;
-  }
-  #accent-pictures .col-sm-6,
-  #accent-pictures .col-sm-3 {
-    margin-bottom: 60px
-  }
-  .lenta-img {
-    height: 250px;
-  }
-  .service .accent-img {
-    width: 70px;
-    height: 70px;
-    background-size: contain; 
-  } 
-  #block-stat {
-    padding: 0;
-  }
-  #block-center .container, #block-img-bottom .container {
-    padding: 70px 15px 50px 15px;
-  }
-  #block-stat .container {
-    padding: 55px 15px 20px 15px;
-  }
-  .hide3 {
-    display: none;
-  }
-  .hide6.hide3 {
-    display: block!important;
-  }
-  .hide6 {
-    display: none;
-  }
-  .couner-item {
-    margin-bottom: 0 !important;
-  }
-  .couner-item .count-info {
-    padding-left: 30px;
-  }
-  #block-center br,
-  #block-img-bottom br  { 
-    display: none 
-  }
-  #product p {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 5px;
-  }
-  #block-center h4,
-  #block-img-bottom h4 {
-    font-size: 16px;
-  }
-  .accent-block-img {
-    height: 300px;
-  }
-  .accent-block {
-    padding-top: 300px;
-  }
-  .accent-block-text {
-    padding: 65px 50px 100px 35px;
-    font-size: 18px;
-    line-height: 32px;
-  }
-  #block-center,
-  #only-img-bg,
-  .background-fixed,
-  .fullimg,
-  .fixed  {
-    background-attachment: scroll;
-  }
-  .worldmap-table {
-    margin: 20px 0;
-  }
-  .sale-img {
-    height: 120px
-  }
-  .sale-img.origin {
-    background-size: contain;
-  }
-  #sale .sale-item {
-    height: 200px;
-  }
-  #sale .sale-item, #sale .sale-item p {
-    font-size: 22px;
-    line-height: 28px;
-  }
-  .couner-item .count-info {
-    padding-left: 0;
-  }
-  .couner-item .title {
-    font-size: 1.2rem;
-  }
-  .couner-item .count {
-    font-size: 4rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  #client-comments .owl-nav .owl-prev,
-  #client-comments .owl-nav .owl-next,
-  #client-comments .owl-nav .prev,
-  #client-comments .owl-nav .next {
-    width: 50px;
-    height: 68px;
-    margin-top: -100px;
-  } 
-}
-/* iPad portail */
-@media screen and (max-width:768px) {
+  /* iPad portail ? */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .page-header-large {
+      padding: 8em 30px 7em
+    }
     #sec-instagram span {
-    display: block;
-    margin-top: 20px;
-  }
-  #photos-left {
-    padding: 5em 0 0;
-  }  
-  #photos-right {
-    padding: 1em 0 0;
-  }
-  #clients .client-carousel .carousel-item img {
-    max-width: 200px;
-  }
-  #clients .client-carousel {
-    background-size: 35%;
-  }
-  #clients {
-    height: 170px;
-  }
-  #slide-block-lr .col-sm-12 {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .navigation.scrolled .menu-lr {
-    margin-top: 0;
-  }
-  .img-news {
-    height: 150px;
-    width: 220px;
-  }
-  .map-section.style-2 .map-block {
-    position: absolute !important;
-    margin-top: 0 !important;
-  }
-  .center-menu {
-    background: transparent;
-  }
-  .navigation.center-menu ul li a {
-    font-size: 15px;
-    margin-bottom: 10px;
-    color: #ccc;
-  }
-  .navbar-fixed-top.center-menu.scrolled {
-    background: transparent;
-  }
-  .navbar-fixed-top.center-menu.scrolled .navbar-toggle {
-    background: rgba(0, 0, 0, 0.7);
-    width: 73px;
-    height: 69px;
-    margin: 0;
-  }
-  .navbar-fixed-top.center-menu.scrolled.open .navbar-toggle {
-    background: transparent;
-  }
+      display: block;
+      margin-top: 20px;
+    }
+    #showroom .btn-default {
+      white-space: normal;
+      text-align: left;
+      letter-spacing: 0.5px;
+      margin: 0 0 5px;
+    }
+    #photos-right .mt-sm80 {
+      margin-top: 0;
+    }
+    .couner-item .count-plus {
+      font-size: 4rem
+    }
+    #clients {
+      height: 100px;
+    }
+    #widget {
+      padding-top: 0;
+    }
+    #client-comments {
+      margin-top: 0
+    }
+    br { display: none }
+    .prefoot br { display: block; }
 
-  .leftright { 
-    height: 55px;
-    overflow: hidden;
+    #block-left .demi-2.col-middle,
+    #block-right .demi-2.col-middle {
+      padding: 60px 40px 50px 40px;
+    }
+    #block-right .overlay {
+      opacity: 1!important;
+    }
+    #block-right.origin {
+      background-size: inherit;
+      background-position: bottom;
+    }
+    #block-right.cover {
+      background-size: contain;
+      background-position: bottom;
+    }
+    #accent-pictures .col-sm-6,
+    #accent-pictures .col-sm-3 {
+      margin-bottom: 60px
+    }
+    .lenta-img {
+      height: 250px;
+    }
+    .service .accent-img {
+      width: 70px;
+      height: 70px;
+      background-size: contain; 
+    } 
+    #block-stat {
+      padding: 0;
+    }
+    #block-center .container, #block-img-bottom .container {
+      padding: 70px 15px 50px 15px;
+    }
+    #block-stat .container {
+      padding: 55px 15px 20px 15px;
+    }
+    .hide3 {
+      display: none;
+    }
+    .hide6.hide3 {
+      display: block!important;
+    }
+    .hide6 {
+      display: none;
+    }
+    .couner-item {
+      margin-bottom: 0 !important;
+    }
+    .couner-item .count-info {
+      padding-left: 30px;
+    }
+    #block-center br,
+    #block-img-bottom br  { 
+      display: none 
+    }
+    #product p {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 5px;
+    }
+    #block-center h4,
+    #block-img-bottom h4 {
+      font-size: 16px;
+    }
+    .accent-block-img {
+      height: 300px;
+    }
+    .accent-block {
+      padding-top: 300px;
+    }
+    .accent-block-text {
+      padding: 65px 50px 100px 35px;
+      font-size: 18px;
+      line-height: 32px;
+    }
+    #block-center,
+    #only-img-bg,
+    .background-fixed,
+    .fullimg,
+    .fixed  {
+      background-attachment: scroll;
+    }
+    .worldmap-table {
+      margin: 20px 0;
+    }
+    .sale-img {
+      height: 120px
+    }
+    .sale-img.origin {
+      background-size: contain;
+    }
+    #sale .sale-item {
+      height: 200px;
+    }
+    #sale .sale-item, #sale .sale-item p {
+      font-size: 22px;
+      line-height: 28px;
+    }
+    .couner-item .count-info {
+      padding-left: 0;
+    }
+    .couner-item .title {
+      font-size: 1.2rem;
+    }
+    .couner-item .count {
+      font-size: 4rem;
+    }
   }
-  .leftright .title { 
-   display: none;
- }
- .navigation.leftright.open { 
-  height: auto;
-  background: #fff!important}
+  @media screen and (min-width: 992px) {
+    #client-comments .owl-nav .owl-prev,
+    #client-comments .owl-nav .owl-next,
+    #client-comments .owl-nav .prev,
+    #client-comments .owl-nav .next {
+      width: 50px;
+      height: 68px;
+      margin-top: -100px;
+    } 
+  }
+  /* iPad portail */
+  @media screen and (max-width:768px) {
+    #showroom {
+      padding: 80px 0;
+    }
+    .contain {
+      background-size: cover;
+    }
+    #sec-instagram span {
+      display: block;
+      margin-top: 20px;
+    }
+    #photos-left {
+      padding: 5em 0 0;
+    }  
+    #photos-right {
+      padding: 1em 0 0;
+    }
+    #clients .client-carousel .carousel-item img {
+      max-width: 200px;
+    }
+    #clients .client-carousel {
+      background-size: 35%;
+    }
+    #clients {
+      height: 170px;
+    }
+    #slide-block-lr .col-sm-12 {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .navigation.scrolled .menu-lr {
+      margin-top: 0;
+    }
+    .img-news {
+      height: 150px;
+      width: 220px;
+    }
+    .map-section.style-2 .map-block {
+      position: absolute !important;
+      margin-top: 0 !important;
+    }
+    .center-menu {
+      background: transparent;
+    }
+    .navigation.center-menu ul li a {
+      font-size: 15px;
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+    .navbar-fixed-top.center-menu.scrolled {
+      background: transparent;
+    }
+    .navbar-fixed-top.center-menu.scrolled .navbar-toggle {
+      background: rgba(0, 0, 0, 0.7);
+      width: 73px;
+      height: 69px;
+      margin: 0;
+    }
+    .navbar-fixed-top.center-menu.scrolled.open .navbar-toggle {
+      background: transparent;
+    }
 
-  .leftright .navbar-toggle.collapsed .icon-bar {
-    background-color: #000;
+    .leftright { 
+      height: 55px;
+      overflow: hidden;
+    }
+    .leftright .title { 
+     display: none;
+   }
+   .navigation.leftright.open { 
+    height: auto;
+    background: #fff!important}
+
+    .leftright .navbar-toggle.collapsed .icon-bar {
+      background-color: #000;
+    }
+    .leftright .menu-l,
+    .leftright .menu-r {
+      width: 40%;
+      padding-top: 50px;
+    }
+    .menu-lr {
+      position: absolute;
+      top: 5px;
+      width: 100%
+    }
+    .langswitch {
+     top: 10px;
+   }
+   .sticky {
+     right: 0;
+   }
+   .button-chapter {
+     font-size: 22px;
+     line-height: 24px;
+     letter-spacing: 0;
+   }
+   .btn-check .col-sm-10 label {
+     font-size: 14px;
+     letter-spacing: 0.02em;
+   }
+   .page-header-large {
+    padding: 9em 30px 6em
   }
-  .leftright .menu-l,
-  .leftright .menu-r {
-    width: 40%;
-    padding-top: 50px;
-  }
-  .menu-lr {
-    position: absolute;
-    top: 5px;
-    width: 100%
-  }
-  .langswitch {
-   top: 10px;
- }
- .sticky {
-   right: 0;
- }
- .button-chapter {
-   font-size: 22px;
-   line-height: 24px;
-   letter-spacing: 0;
- }
- .btn-check .col-sm-10 label {
-   font-size: 14px;
-   letter-spacing: 0.02em;
- }
- .page-header-large {
-   max-height: 350px;
- }
- .page-header-large h1 {
+  .page-header-large h1 {
    font-size: 42px;
    line-height: 54px;
    letter-spacing: 0.1em;
@@ -560,6 +581,12 @@ br { display: none }
 
 /* iPhone portail */
 @media (max-width: 480px) {
+  .page-header-large {
+    padding: 9em 0 4em;
+  }
+  .contain {
+    background-size: cover;
+  }
   #showroom {
     padding: 60px 0;
   }
@@ -570,7 +597,7 @@ br { display: none }
   }
   .portfolio-list {
     margin: 30px 0 0 0;
-}
+  }
   #photos-right .container {
    padding-bottom: 10px!important
  }

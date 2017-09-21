@@ -119,14 +119,6 @@ p {
   background-repeat: no-repeat;
   background-position: top;
 }
-.sticky2 {
-  position: fixed;
-  z-index: 101;
-}
-.stop {
-  position: relative;
-  z-index: 101;
-}
 /* Заголовки в шапке */
 .middle {
   font-size: 36px;
