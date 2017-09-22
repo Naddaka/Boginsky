@@ -8,10 +8,10 @@
       padding: 18em 30px 16em;
     }
     #block-left .demi-2.col-middle {
-      padding: 200px 100px 200px 20%;
+      padding: 100px 100px 200px 20%;
     }  
     #block-right .demi-2.col-middle {
-      padding: 200px 20% 200px 100px;
+      padding: 100px 20% 200px 100px;
     }
   }
   @media (min-width: 1200px) {  

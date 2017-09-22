@@ -23,7 +23,11 @@ li {
 p {
   font-weight: normal;
 }
-
+.title-2 {
+    padding-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
 .soc {
   display: inline-block;
   width: 30px;
