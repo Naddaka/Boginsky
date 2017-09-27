@@ -2,7 +2,7 @@
 <div id="works-linker" class="mt90">
     {echo $CI->load->module('linker2')->get_links($page.id)}
 </div>
-<div class="page-section">
+<div id="page_portfolio" class="page-section">
     <div class="container mt-50">
 
         {if $page.field_albumID}<!--Вставка альбома галереи на странице -->

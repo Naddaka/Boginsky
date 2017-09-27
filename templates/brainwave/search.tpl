@@ -11,11 +11,11 @@
 
 
     <h1>
-        {tlang('Search results')}
+        {echo siteinfo('siteinfo_transl-results')}
     </h1>
 
-        <p>{tlang('Search for:')} <q>{$search_title}</q></p>
-        <p>{tlang('Result:')} {$loc_items_num}</p>
+        <p>{echo siteinfo('siteinfo_transl-searchfor')} <q>{$search_title}</q></p>
+        <p>{echo siteinfo('siteinfo_transl-result')} {$loc_items_num}</p>
 
 
         {if $loc_items_num > 0}
@@ -28,7 +28,7 @@
                     </h2>
                     {if $loc_page_category_name}
                     <p>
-                        <span>{tlang('Category:')}</span>
+                        <span>{echo siteinfo('siteinfo_transl-cat')}</span>
                         <a href="{site_url($item.cat_url)}" class="">{$loc_page_category_name}</a>
                     </p>
                     {/if}
@@ -44,7 +44,7 @@
            
         {else:}
             <p>
-                {tlang('No results were found! Please try typing something else, or use the menu to find more content')}
+                {echo siteinfo('siteinfo_transl-nofind')}
             </p>
         {/if}
 

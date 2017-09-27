@@ -14,6 +14,7 @@
 {else:}
 <!-- Главный контейнер (стили блоков / настройки фона, цвета текста и другие) -->
 <div id="{if strip_tags($page.field_lanpage) == 'Default'}page-standart{/if}{if strip_tags($page.field_lanpage) == 'Centered'}block-center{/if}{if strip_tags($page.field_lanpage) == 'Text right'}block-right{/if}{if strip_tags($page.field_lanpage) == 'Text left'}block-left{/if}{if strip_tags($page.field_lanpage) == 'Picture alignment to bottom'}block-img-bottom{/if}{if strip_tags($page.field_lanpage) == 'Only the photo as a background'}only-img-bg{/if}{if strip_tags($page.field_lanpage) == 'Two columns'}two-collum{/if}{if strip_tags($page.field_lanpage) == 'Photos-left'}photos-left{/if}{if strip_tags($page.field_lanpage) == 'Photos-right'}photos-right{/if}" class="page-section bg-section{if strip_tags($page.field_bgfixed) == 'ON'} fixed{/if}{if strip_tags($page.field_cover) == 'Fill'} cover{/if}{if strip_tags($page.field_cover) == 'Fit'} contain{/if}{if strip_tags($page.field_cover) == 'Original'} origin{/if}{if strip_tags($page.field_textcolor) == 'Black'} text-black{/if}{if strip_tags($page.field_textcolor) == 'White'} text-white{/if}{if strip_tags($page.field_textcolor) == 'Gray'} text-gray{/if} {strip_tags($page.field_bgposition)}" data-background="{$page.field_bgimage}?v=1.0.0" style="background-color:{$page.field_bgcolor}" {if strip_tags($page.field_lanpage) == 'Text right'}{else:}{if strip_tags($page.field_overlay) == 'OFF'}{else:}data-overlay-color="{if $page.field_bgcolor}{strip_tags($page.field_bgcolor)}{else:}#000{/if}" data-overlay-opacity="{strip_tags($page.field_overlay)}"{/if}{/if}>
+{if strip_tags($page.field_onlywidget) == ''}
 <div class="container"{if strip_tags($page.field_lanpage) == 'Text right' or strip_tags($page.field_lanpage) == 'Text left'}{else:} style="padding: {if strip_tags($page.field_martop) == '0'}0{else:}{if $page.field_martop}{$page.field_martop}px{else:}70px{/if}{/if} 15px{if strip_tags($page.field_marbot) == '0'} 0{else:}{if $page.field_marbot} {$page.field_marbot}px{else:} 70px{/if}{/if}"{/if}>
     <div class="row">
        
@@ -448,7 +449,7 @@
   {/if}
 </div>
 <!-- /row (виджет) -->{/if}
-</div> <!-- /container -->
+</div> <!-- /container -->{/if}
  {if strip_tags($page.field_widget) == 'Feedback'}
   <!-- contact_form.tpl -->
   {include_tpl('contact_form')}

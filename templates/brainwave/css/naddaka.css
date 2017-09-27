@@ -419,7 +419,8 @@ p {
  transition: all 0.3s ease-in-out;
 }
 .navigation ul li a:hover {
-  text-decoration: overline;}
+  text-decoration: overline;
+}
   .inverted {
     -webkit-filter: invert(100%); /* Safari */
     filter: invert(100%);
@@ -790,3 +791,57 @@ p {
                       .map-section.style-2 .map-block {
                         left: 0;
                       }
+
+
+.page-typo .bigh {
+  letter-spacing: .01em!important;
+  margin: 30px 0 50px -1px!important;
+}
+.page-typo h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+.page-typo h4 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+.page-typo .uppercase {
+  letter-spacing: 0.04em
+}
+.page-typo p {
+  font-size: 1.6rem;
+}
+#sec-instagram {
+  display: block;
+  background-color: black;
+}
+#sec-instagram img {
+  margin-top: -13px;
+}
+#sec-instagram .container {
+  padding: 55px 0
+}
+#sec-instagram p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: .563em;
+}
+#works-linker .work-navigation {
+  background-color: #333;
+}
+#works-linker .work-navigation a {
+  color: #fff;
+  font-weight: 400;
+  padding: .7em 1.7em;
+  letter-spacing: .05em
+}
+
+.post-list .btn, 
+.post-list .button {
+    margin-top: 0;
+}

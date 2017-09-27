@@ -18,7 +18,7 @@
 					 <div class="thumbnail"> <img src="{$page.field_pagephoto}" alt="{$page.title}" width="1200" height="600"> </div>
 					<div class="entry-summary">
 						{$page.prev_text}
-						 <a href="{site_url($page.full_url)}" class="btn btn-default btn-sm page-load" data-title="{$page.title}">Continued&nbsp;<i class="fa fa-angle-right"></i></a> </div>
+						 <a href="{site_url($page.full_url)}" class="btn btn-default btn-sm page-load" data-title="{$page.title}">{echo siteinfo('siteinfo_transl-readmore')} <i class="fa fa-angle-right"></i></a> </div>
 </article>
 		{/foreach}
 		{$pagination}
@@ -29,7 +29,7 @@
                     <div class="widget widget_search">
                         <form action="{site_url('search')}" method="post" class="search-form form-inline">
                             <div class="input-group">
-                                <input class="search-field form-control" type="search" name="text" value="{$search_title}" placeholder="{tlang('Search')}" required> <span class="input-group-btn">
+                                <input class="search-field form-control" type="search" name="text" value="{$search_title}" placeholder="{echo siteinfo('siteinfo_transl-search')}" required> <span class="input-group-btn">
                                 <button class="search-submit btn btn-default"><span class="icon-magnifier"></span></button>
                                 </span>
                             </div>
