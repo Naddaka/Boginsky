@@ -13,10 +13,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	color: #666;
 	font-size: 30px;
 	font-weight: 200;
-    letter-spacing: 0.05em;
+	letter-spacing: 0.05em;
 }
 #block-center .h2, #block-center h2 {
-    font-weight: 400;
+	font-weight: 400;
 }
 .text-gray .bigh,
 .text-gray .giant {
@@ -142,5 +142,9 @@ html#ecwid_html body#ecwid_body div.ecwid-minicart-counter {
 	.home-slider .large-header, .home-text-rotate .large-header {
 		font-size: 5rem;
 		letter-spacing: .05em;
+	}
+	#block-right .overlay,
+	#block-left .overlay {
+		background-color: transparent!important
 	}
 }
