@@ -16,10 +16,16 @@
     .portfolio-item:last-child {
       display: none
     }
+    .page-header-giant {
+      padding: 27em 30px 25em
+    }
   }
   @media (min-width: 1200px) {  
     .portfolio-item:last-child {
       display: none
+    } 
+    .page-header-giant {
+      padding: 25em 30px 22em
     }
    /* .cover {
       background-size: contain;
@@ -615,38 +621,38 @@ br { display: none }
 @media (min-width: 481px) and (max-width: 767px) {
   #block-left .demi-2.col-middle {
     padding: 40px 5px 50px 30px;
-} 
- #block-right .demi-2.col-middle {
+  } 
+  #block-right .demi-2.col-middle {
     padding: 40px 30px 50px 5px;
-}
-.img-crop {
+  }
+  .img-crop {
     height: 250px;
     width: 250px;
     float: right;
     margin: 10px 0 30px 40px;
-}
-.img-mask {
+  }
+  .img-mask {
     height: 250px;
     width: 250px;
-}
+  }
 
-#block-left p em, #block-right p em {
+  #block-left p em, #block-right p em {
     font-size: 2.2rem!important;
     line-height: 1.1;
-}
- #photos-left .layers .layer {
+  }
+  #photos-left .layers .layer {
     position: relative;
     max-width: 55%;
     padding: 10px 35px 20px 0;
     float: left;
-}
-#photos-right .layers .layer {
+  }
+  #photos-right .layers .layer {
     position: relative;
     max-width: 100%;
     padding: 0;
     margin: 0;
     text-align: center;
-}
+  }
   #widget {
     padding-top: 0;
   }
@@ -659,20 +665,20 @@ br { display: none }
   }
   .navigation.leftright ul li a {
     text-align: unset;
-}
-.leftright .navbar-toggle {
+  }
+  .leftright .navbar-toggle {
     position: absolute;
     right: 0px;
     width: 29px;
     height: 22px;
     overflow: hidden;
     margin: 10px 13px;
-}
+  }
   .leftright .menu-l, .leftright .menu-r {
     width: 50%;
     padding-top: 30px;
     float: left;
-}
+  }
   #block-center .container {
     padding: 30px 15px 15px!important;
   }

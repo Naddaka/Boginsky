@@ -25,7 +25,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 .navbar-brand {
 	padding: 10px 0 15px 51px;
 }
-
+.page-header-giant,
+.page-header-largest,
+.page-header-large {
+	background-position-y: 50px;}
 /* ECWID */
 html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryDescription {
 	display: block;
