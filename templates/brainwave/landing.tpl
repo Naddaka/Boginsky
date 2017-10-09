@@ -14,11 +14,12 @@
 {else:}
 <!-- Главный контейнер (стили блоков / настройки фона, цвета текста и другие) -->
 <div id="{if strip_tags($page.field_lanpage) == 'Default'}page-standart{/if}{if strip_tags($page.field_lanpage) == 'Centered'}block-center{/if}{if strip_tags($page.field_lanpage) == 'Text right'}block-right{/if}{if strip_tags($page.field_lanpage) == 'Text left'}block-left{/if}{if strip_tags($page.field_lanpage) == 'Picture alignment to bottom'}block-img-bottom{/if}{if strip_tags($page.field_lanpage) == 'Only the photo as a background'}only-img-bg{/if}{if strip_tags($page.field_lanpage) == 'Two columns'}two-collum{/if}{if strip_tags($page.field_lanpage) == 'Photos-left'}photos-left{/if}{if strip_tags($page.field_lanpage) == 'Photos-right'}photos-right{/if}" class="page-section bg-section{if strip_tags($page.field_bgfixed) == 'ON'} fixed{/if}{if strip_tags($page.field_cover) == 'Fill'} cover{/if}{if strip_tags($page.field_cover) == 'Fit'} contain{/if}{if strip_tags($page.field_cover) == 'Original'} origin{/if}{if strip_tags($page.field_textcolor) == 'Black'} text-black{/if}{if strip_tags($page.field_textcolor) == 'White'} text-white{/if}{if strip_tags($page.field_textcolor) == 'Gray'} text-gray{/if} {strip_tags($page.field_bgposition)}" data-background="{$page.field_bgimage}?v=1.0.0" style="background-color:{$page.field_bgcolor}" {if strip_tags($page.field_lanpage) == 'Text right'}{else:}{if strip_tags($page.field_overlay) == 'OFF'}{else:}data-overlay-color="{if $page.field_bgcolor}{strip_tags($page.field_bgcolor)}{else:}#000{/if}" data-overlay-opacity="{strip_tags($page.field_overlay)}"{/if}{/if}>
+{if strip_tags($page.field_onlywidget) == ''}
 <div class="container"{if strip_tags($page.field_lanpage) == 'Text right' or strip_tags($page.field_lanpage) == 'Text left'}{else:} style="padding: {if strip_tags($page.field_martop) == '0'}0{else:}{if $page.field_martop}{$page.field_martop}px{else:}70px{/if}{/if} 15px{if strip_tags($page.field_marbot) == '0'} 0{else:}{if $page.field_marbot} {$page.field_marbot}px{else:} 70px{/if}{/if}"{/if}>
     <div class="row">
        
       {if strip_tags($page.field_lanpage) == 'Photos-left'}<!-- Стиль блока «Photos-left» --> 
-       <div class="col-sm-6 hidden-xs">
+       <div class="col-sm-6">
         <div class="layers">
         {if $page.field_pagephoto}
         <img src="{$page.field_pagephoto}?v=1.0.0" alt="" class="layer{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeInLeft{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay="0.2s"{/if} width="555" height="439">{/if}
@@ -30,7 +31,7 @@
         </div>
         <div class="col-sm-6">
         {if strip_tags($page.full_text)}
-          <h5 class="text-uppercase title-2 mb0 opacity-60{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeIn{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay=".45s" style="visibility: visible; animation-delay: 0.45s; animation-name:{if strip_tags($page.field_animation) == 'Default'} fadeInUp{else:} {strip_tags($page.field_animation)}{/if}"{/if}>{strip_tags($page.full_text)}</h5>{/if}
+          <h5 class="text-uppercase title-2 mb20 opacity-60{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeIn{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay=".45s" style="visibility: visible; animation-delay: 0.45s; animation-name:{if strip_tags($page.field_animation) == 'Default'} fadeInUp{else:} {strip_tags($page.field_animation)}{/if}"{/if}>{strip_tags($page.full_text)}</h5>{/if}
           <!-- Заголовок -->
           {if strip_tags($page.field_titleoff) == ''}<h2 class="{if strip_tags($page.field_uppercase) == ''}{else:}uppercase {/if}mb30{if strip_tags($page.field_bigh) == 'Monster'} giant{/if}{if strip_tags($page.field_bigh) == 'Big'} bigh{/if}{if strip_tags($page.field_bigh) == 'Middle'} middle{/if}{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeIn{else:}{strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay="1.00s" style="visibility: visible; animation-delay: 1.00s; animation-name:{if strip_tags($page.field_animation) == 'Default'} fadeIn{else:} {strip_tags($page.field_animation)}{/if}"{/if}>{$page.title}</h2>{/if}
           {if strip_tags($page.prev_text)}
@@ -69,7 +70,7 @@
     
     </div>
 
-      <div class="col-sm-6 hidden-xs">
+      <div class="col-sm-6">
         <div class="layers mb-xs40 mt-sm80 mb-md0 mt-md0 mb-lg-50 mt-lg-50">
         {if $page.field_pagephoto}
         <img src="{$page.field_pagephoto}?v=1.0.0" alt="" class="layer{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeInUp{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay="0.2s"{/if} width="555" height="439">{/if}
@@ -448,7 +449,7 @@
   {/if}
 </div>
 <!-- /row (виджет) -->{/if}
-</div> <!-- /container -->
+</div> <!-- /container -->{/if}
  {if strip_tags($page.field_widget) == 'Feedback'}
   <!-- contact_form.tpl -->
   {include_tpl('contact_form')}

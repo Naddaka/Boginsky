@@ -286,7 +286,7 @@
 			var i, n,
 				clones = this._clones,
 				items = this._items,
-				delta = this.settings.loop ? clones.length - Math.max(this.settings.items * 2, 4) : 0;
+				delta = this.settings.loop ? clones.length - Math.max(this.settings.items * 2, 2) : 0;
 
 			for (i = 0, n = Math.abs(delta / 2); i < n; i++) {
 				if (delta > 0) {
