@@ -13,7 +13,7 @@
     #block-right .demi-2.col-middle {
       padding: 100px 20% 200px 100px;
     }
-    .portfolio-item:last-child {
+    #block-center .portfolio-item:last-child {
       display: none
     }
     .page-header-giant {
@@ -21,7 +21,7 @@
     }
   }
   @media (min-width: 1200px) {  
-    .portfolio-item:last-child {
+    #block-center .portfolio-item:last-child {
       display: none
     } 
     .page-header-giant {
@@ -32,7 +32,7 @@
       }*/
     }
     @media (min-width: 768px) and (max-width: 1200px) {
-      .portfolio-item:last-child {
+      #block-center .portfolio-item:last-child {
         display: none
       }
       #showroom {
@@ -279,7 +279,7 @@
     }
     /* iPad portail */
     @media screen and (max-width:768px) {
-     .portfolio-item:last-child {
+     #block-center .portfolio-item:last-child {
       display: none!important
     }
     .navigation .menu-l ul li, 
@@ -685,7 +685,7 @@ br { display: none }
   #accent-pictures.m-top70 {
     margin-top: 0;
   }
-  .portfolio-item:last-child {
+  #block-center .portfolio-item:last-child {
     display: block!important
   }
   #client-comments {
