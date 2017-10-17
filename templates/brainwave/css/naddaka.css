@@ -309,6 +309,12 @@ p {
       padding: 0;
       background: transparent;
     }
+    .portfolio-filter .btn {
+      text-align: left;
+    }
+    #showroom .btn-default {
+      white-space: normal;
+    }
     #showroom .portfolio-item {
       border: 4px solid white;
     }
