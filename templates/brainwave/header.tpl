@@ -20,3 +20,6 @@
 {if $page}{if strip_tags($category.field_linker) == ''}{else:}<!-- Модуль Linker для вывода ссылок на следующую и предыдущую страницы -->
 {echo $CI->load->module('linker')->get_links($page.id)}
 {/if}{/if}
+{if strip_tags($category.field_breadcrumb) == ''}{else:}<!-- Подключение хлебных крошек -->
+{widget('path')}
+{/if}

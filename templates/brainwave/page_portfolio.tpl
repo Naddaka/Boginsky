@@ -9,7 +9,7 @@
         {$img = $CI->load->module('gallery')->gallery_m->get_album_images($page.field_albumID, NULL, NULL, current_language())}
         {$count=0}
         <div class="row mb70">
-            <div class="col-sm-12">
+            <div class="col-sm-10 col-sm-offset-1">
                 <div class="owl-carousel default-carousel mb-xs40 popup-gallery">
                     {foreach $img as $image}
                     <div>

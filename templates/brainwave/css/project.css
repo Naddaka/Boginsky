@@ -3,6 +3,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	color: #333;
 	letter-spacing: 0.2px;
 }
+.owl-carousel.owl-text-select-on .owl-item {
+    max-height: 700px;
+}
+.owl-carousel .owl-item img {
+    margin: 0 auto;
+    width: auto;
+    /*-webkit-logical-height: -webkit-fill-available;*/
+}
+.owl-nav .owl-prev, 
+.owl-nav .owl-next {
+    color: #555555;
+    background: #fff;
+    opacity: .8;
+}
 .home-slider .large-header.underline-large:after, .home-text-rotate .large-header.underline-large:after {
 	margin: 0.4em auto 0;
 }
