@@ -6,7 +6,6 @@
 	<div class="row">
 		<div class="col-sm-3">
 			<div class="portfolio-filter">
-				<!-- <button class="btn btn-default btn-xs active" data-filter="*">{echo siteinfo('siteinfo_transl-all')}</button> -->
 				{$sub_cats = get_sub_categories($category.id)}
 		        {foreach $sub_cats as $sub_cat}
 		          <a class="btn btn-default btn-xs" href="{site_url($sub_cat.path_url)}">{$sub_cat.name}</a>
@@ -20,7 +19,7 @@
         {$item = $CI->load->module('cfcm')->connect_fields($page, 'page')}
         {$c = explode("/", rtrim($page.cat_url, "/"))}
 
-					<li class="portfolio-item {if $c[1]}{$c[1]}{else:}{$c[0]}{/if} work-ajax-link">
+					<li class="portfolio-item">
 						<a href="{site_url($page.full_url)}" class="page-load" data-title="{$page.title}"> 
 						<img src="{$item.field_pagephoto}" alt="" width="400" height="320">
 							<div class="info-container">

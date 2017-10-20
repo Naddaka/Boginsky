@@ -1,4 +1,4 @@
-<!-- showroom.tpl -->
+<!-- showroom2.tpl -->
 <!-- header.tpl -->{include_tpl('header')}
 
 <div id="showroom">
