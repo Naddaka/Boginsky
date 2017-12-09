@@ -3,7 +3,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	color: #333;
 	letter-spacing: 0.2px;
 }
-.owl-carousel.owl-text-select-on .owl-item {
+.owl-carousel .owl-item img {
     max-height: 700px;
 }
 .owl-carousel .owl-item img {
@@ -11,11 +11,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     width: auto;
     /*-webkit-logical-height: -webkit-fill-available;*/
 }
-.owl-nav .owl-prev, 
-.owl-nav .owl-next {
+#page_portfolio .owl-nav .owl-prev, 
+#page_portfolio .owl-nav .owl-next {
     color: #555555;
     background: #fff;
     opacity: .8;
+}
+.pagination > li > a, .pagination > li > span {
+    width: auto;
+    border: none;
+    font-size: 2.2rem;
+    font-weight: 200!important;
 }
 .home-slider .large-header.underline-large:after, .home-text-rotate .large-header.underline-large:after {
 	margin: 0.4em auto 0;

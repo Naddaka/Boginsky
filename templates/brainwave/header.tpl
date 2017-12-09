@@ -23,3 +23,4 @@
 {if strip_tags($category.field_breadcrumb) == ''}{else:}<!-- Подключение хлебных крошек -->
 {widget('path')}
 {/if}
+<!-- /header.tpl -->

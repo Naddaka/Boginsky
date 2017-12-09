@@ -33,6 +33,9 @@
 				</ul>
 			</div>
 		</div>
+		<div class="row mt100">
+			<div class="col-sm-12 text-center">{$pagination}</div>
+		</div>
 	</div>
 </div>
 

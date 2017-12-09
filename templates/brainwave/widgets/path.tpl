@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="row"> 
 		<ol class="breadcrumb mt30 no-bg mb0">
-			<li><a rel="v:url" property="v:title" href="{site_url()}">{echo siteinfo('siteinfo_transl-main')}</a></li>
+			<!-- <li><a rel="v:url" property="v:title" href="{site_url()}">{echo siteinfo('siteinfo_transl-main')}</a></li> -->
 			{foreach $navi_cats as $item}         
 			{$i++}
 			{if $i < count($navi_cats)}

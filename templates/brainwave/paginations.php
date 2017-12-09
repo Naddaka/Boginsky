@@ -77,7 +77,7 @@ $paginationConfig['next_tag_close'] = '</li>';
 
 /* Last page */
 $paginationConfig['last_tag_open'] = '<li>';
-$paginationConfig['last_link'] = '... '.$paginationConfig['total_rows'];
+$paginationConfig['last_link'] = '... '.ceil($paginationConfig['total_rows']/$paginationConfig['per_page']);
 $paginationConfig['last_tag_close'] = '</li>';
 
 
