@@ -61,8 +61,7 @@
     <script src="{$THEME}js/jquery.min.js?v=1.11.2"></script>
     <!-- jQuery UI -->
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <!-- Map library -->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
+    
     <!-- Zoom library -->
     <script src="{$THEME}js/jquery.elevatezoom.js?v=1.0.0"></script>
     <!-- Scroll library -->
